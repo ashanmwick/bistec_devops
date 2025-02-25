@@ -1,11 +1,11 @@
 ## 1. Authenticate with Azure CLI
 Pls Use PowerShell
 
-1. Azure CLI authenticate with Azure:
+1. Azure CLI authenticate with Azure Enter:
 
     ```bash
     az login
-    ```bash
+    ```
     
 2. Select your account and login & Select Tenant & subscription in      terminal(this will return subscription-id)
 
@@ -103,5 +103,14 @@ Pls Use PowerShell
 ## 5. Access Application
 
 Deployed External IP- http://20.253.88.194/
+
 For indepth Document on Deploymnet with Scrrenshots visit
+
 https://docs.google.com/document/d/14HGwQafrvYKWducVTnU9aF7-zXII0pVnqtunplt8sxk/edit?usp=sharing
+
+## 6. Screen Shots
+![DeployedWeb](Screenshots/deployedView.jpg)
+
+![Command Prompt](Screenshots/cmdView.jpg)
+
+![Azure Portal](Screenshots/azureview.jpg)
