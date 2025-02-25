@@ -1,4 +1,3 @@
-# Configure the Azure provider
 terraform {
   required_providers {
     azurerm = {
@@ -10,17 +9,15 @@ terraform {
   required_version = ">= 1.1.0"
 }
 
-# Provider configuration for Azure
 provider "azurerm" {
   features {}
 }
 
-# Fetch the existing resource group
 data "azurerm_resource_group" "aks_rg" {
-  name = "Bistec-assignment" # Replace with the name of your existing resource group
+  name = "Bistec-assignment"
 }
 
-# Create the AKS cluster in the existing resource group
+# Create cluster in the resource group
 resource "azurerm_kubernetes_cluster" "aks_cluster" {
   name                = "bistec-cluster-ashan"
   location            = data.azurerm_resource_group.aks_rg.location
@@ -42,7 +39,6 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
   }
 }
 
-# Output the kubeconfig (sensitive data)
 output "kube_config" {
   value     = azurerm_kubernetes_cluster.aks_cluster.kube_config_raw
   sensitive = true
