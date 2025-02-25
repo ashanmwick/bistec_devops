@@ -1,5 +1,6 @@
 ## 1. Authenticate with Azure CLI
 Pls Use PowerShell
+Sense
 
 1. Azure CLI authenticate with Azure Enter:
 
@@ -7,7 +8,7 @@ Pls Use PowerShell
     az login
     ```
     
-2. Select your account and login & Select Tenant & subscription in      terminal(this will return subscription-id)
+2. Select your account and login & Select Tenant & subscription in terminal(this will return subscription-id)
 
 3. Set the subscription for the session:
 
@@ -114,3 +115,7 @@ https://docs.google.com/document/d/14HGwQafrvYKWducVTnU9aF7-zXII0pVnqtunplt8sxk/
 ![Command Prompt](Screenshots/cmdView.jpg)
 
 ![Azure Portal](Screenshots/azureview.jpg)
+
+## 6. Sensitive Data Handling
+For security reasons, sensitive data such as API keys, passwords, and secrets have been Removed
+
