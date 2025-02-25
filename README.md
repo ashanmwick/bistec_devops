@@ -104,6 +104,7 @@ Sense
 ## 5. Access Application
 
 Deployed External IP- http://20.253.88.194/
+(Use Web Browser)
 
 For indepth Document on Deploymnet with Scrrenshots visit
 
