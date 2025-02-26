@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     azurerm = {
-      source  = "hashicorp/azurerm"
+      source  = "hashicorp/azurerm" #Using azure provider
       version = "~> 3.0"
     }
   }
@@ -26,7 +26,7 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
 
   default_node_pool {
     name       = "default"
-    node_count = 2
+    node_count = 2 #Set the node count to 2
     vm_size    = "Standard_DS2_v2"
   }
 
