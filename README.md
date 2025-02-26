@@ -8,21 +8,21 @@ Sense
     az login
     ```
     
-2. Select your account and login & Select Tenant & subscription in terminal(this will return subscription-id)
+2. Select your account and login & Select Tenant & subscription in terminal
 
-3. Set the subscription for the session:
-
-    ```bash
-    az account set --subscription "<subscription-id>"
-    ```
-
-4. Get account details such subscription ID
+3. Get account details such subscription ID
 
 
     ```bash
     az account show
     ```
 
+4. Set the subscription for the session:
+
+    ```bash
+    az account set --subscription "<subscription-id>"
+    ```
+    
 ## 2. Set Service Permission and Set Environment Variables
 
 1. To set permissions with role for subscription:
