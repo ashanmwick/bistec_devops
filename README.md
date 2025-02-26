@@ -71,11 +71,12 @@ Sense
     terraform plan
     ```
 
-6. To apply apply the configuration to Azure Enter:
+6. To apply the configuration to Azure Enter:
 
     ```bash
     terraform apply
     ```
+7. Confirm plan by entering “yes”
 
 ## 4. Kubernetes Deployment
 
